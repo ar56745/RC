@@ -1,0 +1,29 @@
+params to consider --- temp, humidity, pressure, precipitation, dew point, heat index, wind speed, cloud cover,
+                       wind chill, visibilty, wind gust, ***weatherdesc, feelslike, wind dir degree
+
+
+temp - humidity, pressure
+
+cloud cover - humidity,precipitation
+
+precipitation - dew point, cloud cover
+
+dew point - humidity, temp, *pressure
+
+wind chill - temp, wind speed, *heat index
+
+humidity - dew point, temp (in paper with light)
+
+humidity - dew point, pressure, temp
+
+wind gust - wind speed, pressure, *wind dir
+
+visibilty - humidity, wind speed, precipitation
+
+wind speed - temp, humidity, pressure
+
+heat index - temp, humidity (both directly proportional)
+
+pressure - temp, humidity, precipitation
+
+**weather description - temp, humidity, precipitation
